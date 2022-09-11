@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nn</title>
+    <link rel="stylesheet" href="../public/style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <!-- <link rel="stylesheet" href="/css/tailwind.css" /> -->
+  </head>
+  <body >
+    //sudip@licts
+    <div
+      class=" bg-[url('../public/img/bg4.jpg')] bg-no-repeat bg-cover w-screen min-h-screen text-white relative"
+    >
+      <div
+        id="main-div"
+        class=" w-full h-screen bg-black bg-opacity-50"
+      >
+      
+        <h1 class="z-10 w-full text-center relative">
+           
+          <a
+            href="index.html"
+            class="text-[40px] md:text-[70px] xl:text-[100px] font-bold"
+            >XyZ<span class="  text-blue-600 ">.Lib</span></a
+          >
+        </h1>
+        <div class="w-full relative z-10">
+          <ul class="text-xl flex gap-5 md:text-2xl font-bold justify-center text-slate-100 ">
+            <li class="after:content[''] after:rounded-md after:w-0 after:h-[3px] after:block after:m-auto after:transition-all after:bg-white hover:after:w-full hover:text-blue-600"><a href="home.html">Home</a></li>
+            <li class="after:content[''] after:rounded-md after:w-0 after:h-[3px] after:block after:m-auto after:transition-all after:bg-white hover:after:w-full hover:text-blue-600"><a href="about.html">About</a></li>
+            <li class="after:content[''] after:rounded-md after:w-0 after:h-[3px] after:block after:m-auto after:transition-all after:bg-white hover:after:w-full hover:text-blue-600"><a href="contact.html">Contact</a></li>
+            <li class="hidden md:block after:content[''] after:rounded-md after:w-0 after:h-[3px] after:block after:m-auto after:transition-all after:bg-white hover:after:w-full hover:text-blue-600"><a href="#">Location</a></li>
+          </ul>
+        </div>
+        <div class="w-full mt-4 flex justify-center relative z-10">
+          <div
+            id="search-box"
+            class=" md:w-96 lg:w-[500px] rounded-xl bg-gray-700 bg-opacity-70"
+          >
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="search book "
+              class="h-16 border-none rounded-xl bg-transparent w-full px-6 text-xl focus:outline-none text-white"
+            />
+            <div
+              id="search-box-toggle"
+              class="hidden w-full h-20 items-center justify-end px-5 border-t-2 border-gray-500"
+            >
+              <button
+                type="#"
+                class="text-xl cursor-pointer px-3 py-1 rounded-md bg-white text-black font-bold"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="z-0 w-full flex justify-center absolute bottom-7">
+              
+            <img class="w-70 " src="../public/img/bg6.png" alt="" />
+        </div>
+       
+        <div class="absolute bottom-3 w-full flex justify-center  ">
+            <a href="home.html" class="flex items-center gap-3 font-bold text-black text-xl px-5 py-3 bg-yellow-400 rounded-full">Go to homepage
+                <div class="h-full flex items-center">
+                    <img class="w-5" src="../public/img/arrow-right-solid.svg" alt="">
+                </div>
+            </a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

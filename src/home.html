@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | </title>
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    
+    <div class="relative w-screen min-h-screen bg-slate-200 ">
+       
+        <header class="w-full py-2  bg-slate-200 shadow-lg shadow-gray-500 ">
+            <div class="w-[90%] mx-auto flex items-center justify-between">
+                <h1 class="z-10  text-center relative">
+           
+                    <a
+                      href="index.html"
+                      class="text-3xl  xl:text-[50px] font-bold"
+                      >XyZ<span class="  text-blue-600 ">.Lib</span></a
+                    >
+                  </h1>
+              
+                    <div id="menu--list" class="hidden lg:flex z-30  absolute  rounded-md top-16 text-black font-bold w-full right-0   h-[88vh] justify-end lg:relative lg:w-fit lg:h-auto lg:top-0  ">
+                        <ul id="list--item" class="bg-white relative  rounded-md flex flex-col justify-center items-center gap-3 w-56 h-72 text-center  text-xl right-10 z-40 lg:w-full lg:bg-slate-200
+                        lg:justify-end lg:rounded-none lg:flex-row lg:h-auto lg:gap-5">
+                          <li class="after:content[''] after:rounded-md after:w-full after:h-[3px] after:block after:m-auto after:transition-all after:bg-blue-500 hover:text-blue-700  lg:w-auto lg:shadow-none "><a href="home.html">Home</a></li>
+                          <li class="after:content[''] after:rounded-md after:w-0 after:h-[3px] after:block after:m-auto after:transition-all after:bg-blue-500 hover:text-blue-700 hover:after:w-full"><a href="about.html">About</a></li>
+                          <li class="after:content[''] after:rounded-md after:w-0 after:h-[3px] after:block after:m-auto after:transition-all after:bg-blue-500 hover:text-blue-700 hover:after:w-full"><a href="contact.html">Contact</a></li>
+                          
+                          <li class=" hover:text-red-700   text-red-500 flex gap-2">
+                            <img src="../public/img/heart-free.svg " class="w-5" alt="">
+                            <a href="#"  class="after:content-[''] after:rounded-md after:w-0 after:h-[3px] after:block after:m-auto after:transition-all after:bg-red-500 hover:after:w-full ">Donate</a></li>
+                            <li class="text-white list-none font-thin  text-xl bg-purple-800  py-1 rounded-md flex gap-3 px-5 " id="login"><a href="#">Login
+                            </a>
+                            <img src="../public/img/arrow-right-solid.svg" class="w-5 " alt="">
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+              
+            
+                    
+                <div id="menu--btn" class="w-10 h-10 flex items-center justify-center lg:hidden cursor-pointer">
+                    <img src="../public/img/menu-burger.svg" class="w-6 " id="menu--burger" alt="">
+                    <img src="../public/img/cross.svg" class="w-6 hidden " id="cross" alt="">
+                </div>
+         
+
+        </header>
+        <div class="w-full mx-auto h-[450px] md:h-[400px] lg:h-96 bg-slte-300 flex relative z-10 ">
+                <div class=" bg-opacity-50 text-white bg-black w-full md:w-2/3  lg:w-[40%] relative z-10">
+                    <h1 class="px-5 py-2 bg-slate-400 bg-opacity-40  inline-block ml-10 mt-20 rounded-xl "><img src="../public/img/bookmark-regular.svg" class="w-4 inline-block " salt=""><span class="pl-1 font-bold">89%</span> Done</h1>
+                    <h2 class="text-4xl pl-10 lg:pl-5 font-bold">Available All Kind Of Books</h2>
+                    <p class="px-10 lg:px-5  lg:text-gray-700 py-5 font-bold">Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, vitae. ipsum dolor sit amet. Lorem Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ipsum dolor sit amet.</p>
+                    <div class="absolute bottom-5 w-full flex justify-center   ">
+                        <a href="booklist.html" class="flex items-center gap-3 font-bold text-black text-xl px-5 py-2 bg-yellow-400 rounded-full">Check Book List
+                            <div class="h-full flex items-center">
+                                <img class="w-5" src="../public/img/arrow-right-solid.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-yelow-400 w-full h-full z-0 lg:flex-1 md:px-2 py-3 absolute lg:relative">
+                    <div class="w-full h-full border lg:rounded-xl bg-[url('../public/img/bg1.jpg')] bg-no-repeat bg-cover ">
+                    </div>
+                </div>
+        </div>
+        <div class="w-full  bg-black bg-opacity-20 h-20 flex items-center">
+            <h1 class="w-4/5 mx-auto font-bold text-2xl italic" >Access anywhere, anytime</h1>
+        </div>
+
+        <div class="w-4/5 py-6 px-3 mx-auto bg-black bg-opacity-20  mt-6 rounded-md">
+            <h1 class="text-4xl font-bold py-2 pl-3 shadrop-shadow-lg w-full bg-black bg-opacity-10 rounded-md">Recent Release</h1>
+            <div id="new-release" class="bg-white grid md:grid-cols-2 lg:grid-cols-4   h-full mt-5  rounded-md">
+                
+                
+            </div>
+        </div>
+        <div class="w-4/5 py-6 px-3 mx-auto bg-black bg-opacity-20  mt-6 rounded-md">
+            <div class="text-xl font-bold py-2 px-3 shadrop-shadow-lg w-full bg-white  rounded-md lg:flex lg:items-center justify-between">
+                <h1 class="py-3 cursor-pointer">Category // <span id="cat-title" class="text-sm">All</span></h1>
+                <div  class="flex flex-wrap text-lg gap-4 ">
+
+                   <h1 class="cursor-pointer header--items hover:text-indigo-700 border-r-2 border-black pr-3 lg:pr-5 " data-id="All">All</h1>
+                    <h1 class="cursor-pointer header--items hover:text-indigo-700 border-r-2 border-black pr-3 lg:pr-5 " data-id="Comic">Comic Book</h1>
+                   <h1 class="cursor-pointer header--items hover:text-indigo-700 border-r-2 border-black pr-3 lg:pr-5 " data-id="Science">Science fiction</h1>
+                    <h1 class="cursor-pointer header--items hover:text-indigo-700 border-r-2 border-black pr-3 lg:pr-5 " data-id="Crime">Crime</h1>
+                    <h1 class="cursor-pointer header--items hover:text-indigo-700 border-r-2 border-black pr-3 lg:pr-5 " data-id="Romance">Romance</h1>
+                   
+                    <h1 class="cursor-pointer header--items hover:text-indigo-700 " data-id="Horror">Horror</h1>
+
+                </div>
+                
+            </div>
+            <div id="container" class="bg-white grid lg:grid-cols-2   h-full mt-5  rounded-md">
+                
+                
+            </div>
+        </div>
+
+
+       
+
+        
+     
+        <footer class="w-full h-80 bg-blue-500 py-16 mt-10">
+                <div class="w-4/5 mx-auto grid md:grid-cols-3 ">
+                        <div class="flex  justify-around md:col-span-2 pb-5">
+                            <div class="flex flex-col md:gap-5 justify-center text-white font-serif">
+                                <h1 class="md:text-2xl font-bold ">Quick Help</h1>
+                                <h1>Help and Support</h1>
+                                <h1>Billing</h1>
+                                <h1>Return Policy</h1>
+                                <h1><a href="contact.html">Contact Us</a></h1>
+                            </div>
+                            <div class="flex flex-col md:gap-4 justify-center text-white font-serif">
+                                <h1 class="md:text-2xl font-bold">About Us</h1>
+                                <h1>Our story</h1>
+                                <h1>Our Purpose</h1>
+                                <h1>Our Team</h1>
+                                <h1>News</h1>
+                           
+                            </div>
+                        </div>
+                        <div class="flex-1 text-white">
+                            <h1 class="text-2xl font-bold">social links</h1>
+                            <div class="flex gap-3 my-5">
+                                <img class="w-8" src="../public/img/facebook.svg" alt="">
+                                <img class="w-8" src="../public/img/instagram.svg" alt="">
+                                <img class="w-8" src="../public/img/twitter.svg" alt="">
+                                <img class="w-8" src="../public/img/tik-tok.svg" alt="">
+                            </div>
+                        </div>
+                </div>
+        </footer>
+    </div>
+     <!-- login page -->
+     <div class="card  hidden z-50 bg-black bg-opacity-70 w-full min-h-screen justify-center items-center absolute top-0 py-5" id="login-page">
+
+        <div class="w-full md:w-6/12 mx-auto bg-white p-6  rounded-lg block relative" id="inner-card">
+            <div id="loginCross" class="absolute right-10 cursor-pointer">
+                <div class="flex  justify-around  items-center  w-5 h-4 relative ">
+                    <button class="text-xl">X</button>
+                </div>
+            </div>
+
+            <h2 class="text-center text-lg font-bold my-4">Descover & read more</h2>
+            <img src="../public/img/loginImage.jpg" alt="">
+            <h1 class="hidden md:block font-bold">Sign up for better better recomendations with free account</h1>
+          
+
+            <form method="" action="" name="myform" >
+                <div id="signUpPage" class="w-full py-6">
+                   <div class="w-full  space-y-7">
+                    <div class="w-full text-white text-center bg-red-400 rounded-full py-3 flex justify-center">
+                        <a href="#" class="flex gap-3 px-2 items-center"><img src="../public/img/googlelogo.svg" class="w-5" alt=""><h2>Continue with google</h2></a>
+
+                    </div>
+                    <div class="w-full text-white text-center bg-blue-600 rounded-full py-3 flex justify-center">
+                        <a href="#" class="flex gap-3 px-2 items-center"><img src="../public/img/facebook.svg" class="w-5" alt=""><h2>Continue with facebok</h2></a>
+
+                    </div>
+                   </div>
+                    
+                </div>
+                <div id="loginBox" class="hidden">
+                   <div class="w-full ">
+                    <div class="my-4">
+                        <label for="username">Username </label>
+                        <input type="text" name="username" id="username" placeholder="Enter your username" class="w-full p-2 bg-gray-100 rounded-2xl focus:outline-none border focus:border-blue-500">
+    
+                    </div>
+                    <div class="my-4">
+                        <label for="password">Password </label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password" class="w-full p-2 bg-gray-100 rounded-2xl focus:outline-none border focus:border-blue-500">
+    
+                    </div>
+                    <div  class="w-full flex justify-center flex-col items-center gap-2">
+                        <button type="submit" id="submit" class="px-8 border py-3 bg-gray-100 rounded-2xl w-full hover:bg-blue-600 hover:text-white">login </button>
+                    </div>
+                   </div>
+                </div>
+                <div id="account--login" class="w-fit rounded-full hover:bg-slate-300">
+                    <h2 class="w-fit px-5 py-2 cursor-pointer ">Already have account? <span class="font-bold hover:underline cursor-pointer">login</span></h2>
+                </div>
+                <div id="account--create" class="hidden w-fit rounded-full hover:bg-slate-300 mt-5">
+                    <h2 class="w-fit px-5 py-2 cursor-pointer ">Not Register? <span class="font-bold hover:underline cursor-pointer">Create Account</span></h2>
+                </div>
+               
+            </form>
+        </div>
+
+    </div>
+    <!-- login page End-->
+
+
+    <div id="scroll--up" class="fixed w-16 h-16 bottom-5 right-5  rounded-full bg-yellow-400  cursor-pointer flex items-center justify-center">
+           
+        <img src="../public/img/arrow-small-up.svg" class="w-12" alt="">
+
+    </div>
+
+
+
+    <script src="home.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>
