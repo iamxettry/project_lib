@@ -39,16 +39,26 @@
               </div>
         </header>
 
-        <div class="w-full h-48 bg-slate-300 ">
+        <div class="w-full  bg-slate-300 ">
           <h1 class="w-full text-center py-4 text-4xl font-bold">Contact Us</h1>
           <div class="w-full flex justify-center items-center gap-2 font-serif">
             <a href="home.html">Home //</a>
             <a href="home.html">page //</a>
             <h2 class="text-blue-600">Contact Us</h2>
           </div>
-          <div class="text-center mt-6">
-            Contact us through given social links
-            and <br> <span class="underline font-bold cursor-pointer">xyz.team@gmail.com</span>
+          <div class="w-full flex justify-center py-10 ">
+           <form action="#" class="flex flex-col space-y-7  bg-black bg-opacity-30 px-6 py-3 rounded-md ">
+            <label for="name">Name* <br>
+              <input type="text" name="name" id="name" class="rounded-md w-4/5">
+            </label>
+            <label for="email">E-mail Address* <br>
+              <input type="email" name="email" id="email" class="w-4/5 rounded-md">
+            </label>
+            <label for="message">Message <br>
+                <textarea name="message" id="message" cols="40" rows="6" class="rounded-md"></textarea>
+            </label>
+            <button type="submit" class="py-2 bg-blue-500 rounded-md">Send Message</button>
+           </form>
           </div>
 
         </div>
